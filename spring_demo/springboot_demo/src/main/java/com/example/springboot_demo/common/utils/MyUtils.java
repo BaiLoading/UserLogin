@@ -23,7 +23,6 @@ public class MyUtils {
     @PostConstruct
     public void init() {
         List<SensWord> sensWords = sensWordsService.getAll();
-        System.out.println("get");
         for (SensWord sensWord : sensWords) {
             trie.put(sensWord.getWords());
         }

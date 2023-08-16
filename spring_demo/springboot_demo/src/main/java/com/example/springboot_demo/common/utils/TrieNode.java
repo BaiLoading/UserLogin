@@ -2,9 +2,7 @@ package com.example.springboot_demo.common.utils;
 
 import java.util.HashMap;
 
-/**
- * @author Douzi
- */
+
 public class TrieNode {
     private char aChar;
     private HashMap<Character, TrieNode> map;
