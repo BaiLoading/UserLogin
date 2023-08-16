@@ -20,15 +20,9 @@ public class SpringMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         //登录拦截器
         registry.addInterceptor(getLoginInterceptor())
-                .excludePathPatterns(
-                        "/shop/**",
-                        "/voucher/**",
-                        "/shop-type/**",
-                        "/upload/**",
-                        "/blog/hot",
-                        "/user/code",
-                        "/user/login"
-                ).order(1);
+                .excludePathPatterns("/login.html", "/Login", "/imgs/**", "/style/**", "/js/**",
+                        "/Register", "/register.html"
+                );
         //token刷新拦截器
         registry.addInterceptor(getTokenFreshInterceptor(stringRedisTemplate)).addPathPatterns("/**").order(0);
     }
