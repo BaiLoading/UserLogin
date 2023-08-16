@@ -84,11 +84,6 @@ public class UserController {
         }
     }
 
-    @RequestMapping("/user/logout")
-    public ResultUtil<String> logout(@RequestBody User user){
-        stringRedisTemplate.delete(LOGIN_USER_KEY + user.getUserName());
-        return ResultUtil.buildSuccess("登出成功");
-    }
 
 //    @GetMapping("/Init")
 //    public R start(HttpServletRequest request, HttpServletResponse response) throws ParamIllegalException {
