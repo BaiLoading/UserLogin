@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3e102a-c452-4e74-9fc6-4d76e31f684c" name="Changes" comment="20230816-登录注册修改" />
+    <list default="true" id="9d3e102a-c452-4e74-9fc6-4d76e31f684c" name="Changes" comment="20230816-登录注册修改">
+      <change afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/java/com/example/springboot_demo/common/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/com/example/springboot_demo/common/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/test2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/11470/IdeaProjects/spring_demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "b93701b80990859ef9742ada67618f1a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/11470/IdeaProjects/spring_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b93701b80990859ef9742ada67618f1a&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.test01.test">
     <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springboot_demo.test01" />
@@ -127,7 +133,15 @@
       <workItem from="1691805740895" duration="1413000" />
       <workItem from="1692089606312" duration="767000" />
       <workItem from="1692172657348" duration="1241000" />
-      <workItem from="1692174350068" duration="13513000" />
+      <workItem from="1692174350068" duration="14991000" />
+      <workItem from="1692258728861" duration="1217000" />
+      <workItem from="1692604524363" duration="2864000" />
+      <workItem from="1692792078207" duration="1204000" />
+      <workItem from="1693988361730" duration="3246000" />
+      <workItem from="1694088629549" duration="612000" />
+      <workItem from="1694348599746" duration="300000" />
+      <workItem from="1694705543919" duration="104000" />
+      <workItem from="1695212368261" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1692176159764</created>
@@ -143,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692188378680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20230816-登录注册修改">
+      <created>1692188571994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692188571994</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20230816-登录注册修改">
+      <created>1692188659990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692188659990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

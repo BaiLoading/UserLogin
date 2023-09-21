@@ -34,7 +34,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
     }
 
     @Bean
-    public LoginInterceptor getLoginInterceptor(){return new LoginInterceptor();}
+    public LoginInterceptor getLoginInterceptor() { return new LoginInterceptor(); }
 
     @Bean
     public IpInterceptor getIpInterceptor(){

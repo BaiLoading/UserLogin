@@ -1,6 +1,7 @@
 package com.example.springboot_demo.controller;
 
 import cn.hutool.json.JSONUtil;
+import com.example.springboot_demo.common.UserHolder;
 import com.example.springboot_demo.common.utils.MyUtils;
 import com.example.springboot_demo.common.utils.ResultUtil;
 import com.example.springboot_demo.common.utils.SimpleRedisLock;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -84,6 +86,11 @@ public class UserController {
         }
     }
 
+    @PostMapping("/user/logout")
+    public ResultUtil<Boolean> logout(){
+        UserHolder.removeUser();
+        return ResultUtil.success;
+    }
 
 //    @GetMapping("/Init")
 //    public R start(HttpServletRequest request, HttpServletResponse response) throws ParamIllegalException {
